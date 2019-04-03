@@ -7,11 +7,13 @@ DB1-Python is written in and requires python3.
 
 # Installation (MacOS)
 `brew install python`
+
 `python3 --version`
 
 `virtualenv -p python3 env`
 
 `source env/bin/activate`
+
 `pip install hidapi`
 
 `python3 basicTest.py`
