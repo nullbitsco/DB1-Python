@@ -35,8 +35,8 @@ if __name__ == "__main__":
 		#100 degrees F = red (0) , 0 degrees F = blue (200)
 		h = int(200 - (2*t_f))
 		print("Temp (F): " + str(t_f) + " Hue: " + str(h))
-		DB1.set_hsv_no_eeprom(h, 100, 50)
 		DB1.set_rgb_mode(RgbMode.Static)
+		DB1.set_hsv_no_eeprom(h, 100, 50)
 
 		print("Done!")
 

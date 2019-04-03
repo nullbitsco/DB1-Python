@@ -7,6 +7,7 @@ if __name__ == "__main__":
 
 	DB1 = Db1()
 	DB1.set_rgb_mode(RgbMode.Static)
+	DB1.set_hsv_no_eeprom(0, 100, 100)
 	time.sleep(3)
 
 	# Set LED mode Breathing

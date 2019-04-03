@@ -1,0 +1,6 @@
+certifi==2019.3.9
+chardet==3.0.4
+hidapi==0.7.99.post21
+idna==2.8
+requests==2.21.0
+urllib3==1.24.1
