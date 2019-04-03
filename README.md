@@ -26,20 +26,22 @@ Inline example:
 from db1 import Db1
 from db1 import RgbMode
 
+DB1 = Db1()
+
 # Set RGB mode to rainbow swirl
-Db1().set_rgb_mode(RgbMode.RainbowSwirl6)
+DB1.set_rgb_mode(RgbMode.RainbowSwirl6)
 
 # Increase the brightness 10%
-Db1().increase_brightness()
+DB1.increase_brightness()
 
 # Decrease the brightness 10%
-Db1().decrease_brightness()
+DB1.decrease_brightness()
 
 # Set HSV to light blue (doesn't save to EEPROM)
-Db1().set_hsv_no_eeprom(180, 100, 100)
+DB1.set_hsv_no_eeprom(180, 100, 100)
 
 # Set HSV to light blue (saves to EEPROM)
-Db1().set_hsv_eeprom(180, 100, 100)
+DB1.set_hsv_eeprom(180, 100, 100)
 ```
 Use a [color picker](https://alloyui.com/examples/color-picker/hsv) to get HSV values!
 
