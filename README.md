@@ -14,7 +14,7 @@ DB1-Python is written in and requires python3.
 
 `source env/bin/activate`
 
-`pip install hidapi`
+`pip install -r example_reqs.txt`
 
 `python3 basicTest.py`
 
